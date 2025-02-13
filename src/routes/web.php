@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\RoginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [RoginController::class, 'index']);
+Route::post('/rogins/confirm', [RoginController::class, 'confirm']);
+// 送信ボタンクリック時のルーティング
+Route::post('/rogins', [RoginController::class, 'store']);

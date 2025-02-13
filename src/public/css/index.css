@@ -1,0 +1,142 @@
+.session {
+    color: white;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+.header {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 30px 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.rogin-form {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rogin-form__item {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.rogin-form__required {
+    margin-left: 5px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    color: red;
+    align-items: center;
+}
+
+
+.rogin-form__item-label {
+    padding: 4px 6px;
+
+}
+
+.form-group__content {
+    width: 160%;
+    text-align: left;
+}
+
+.rogin-form__inner {
+    width: 100%;
+}
+
+.alert-danger {
+    margin-top: 5px;
+    color: red;
+    font-size: 14px;
+}
+
+.alert-danger ul {
+    padding-left: 15px;
+    list-style-type: disc;
+}
+
+.rogin-form__text {
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+}
+
+.rogin-form__select {
+    padding: 10px;
+    width: 200px;
+    height: 40px;
+}
+
+.rogin-form__textarea {
+    height: 180px;
+    white-space: pre-wrap;
+    width: 200px;
+}
+
+.rogin-form__text:focus {
+    outline: blue 2px solid;
+    background-color: yellow;
+}
+
+.rogin-form__list {
+    list-style: none;
+    text-align: left;
+    display: flex;
+}
+
+.rogin-form__list-inner {
+    text-align: left;
+    padding: 10px 10px;
+    width: 100px;
+}
+
+.rogin-form__item-select {
+    padding: 10px 10px;
+    width: 100%;
+}
+
+.rogin-form__select:focus {
+    outline: blue 2px solid;
+    background-color: #ddd;
+}
+
+.rogin-form__checkbox-p {
+    font-size: 10px;
+}
+
+.rogin-form__item-inner {
+
+    text-align: left;
+    width: 100%;
+    padding: 5px 5px;
+
+}
+
+.rogin-form__button {
+    padding: 10px 10px;
+}
+
+.rogin-form__button-input {
+    padding: 10px 10px;
+    background-color: blue;
+    color: white;
+    height: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100px;
+}
